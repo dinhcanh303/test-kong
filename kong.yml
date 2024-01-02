@@ -1,0 +1,8 @@
+_format_version: "3.0"
+services:
+  - name: hello-service
+    url: http://localhost:3000
+    routes:
+      - name: hello-route
+        paths:
+          - /hello
